@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if user.is_authenticated %}
+        <h1>welcome {{ user }} </h1>
+    {% endif %}
+    <form action="{% url 'login' %}" method="get">
+        {% csrf_token %}
+        <input type="text" name="phone_number">
+        <input type="submit" value="اس ام اس را ارسال کن">
+    </form>
+</body>
+</html>
