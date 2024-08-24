@@ -11,7 +11,7 @@ For a full featured version with good UI, please visit [confectionery project].
 
 If you want to test it, visit [confectioery site]
 
-If you want to use this source code in this repository, don't forget to use your own APIKey and other related variables. Because they are secret and this project won't work for you by just copy and paste 😊.
+If you want to use the source code in this repository, don't forget to use your own APIKey and other related variables. Because they are secret and this project won't work for you by just copy and paste 😊.
 
 [confectionery project]: https://www.github.com/mohammadpmf/confectionery
 [confectioery site]: https://codefather1369.ir/confectionery/accounts/login/
